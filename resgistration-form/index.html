@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="en">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="rating" content="general">
+    <meta name="copyright" content="© JoaoPMGI">
+    <meta name="author" content="Joao Pedro Mendes Gomes">
+    <meta name="description" content="Form for resgitration with progress bar">
+    <meta name="keywords" content="Form, Registration, Register">
+
+    <link rel="shortcut icon" href="assets/favico.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- GOOGLE FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!-- SCRIPT JS -->
+    <script src="js/index.js" defer></script>
+
+    <title>Form: Register</title>
+</head>
+
+<body>
+
+    <form action="#" class="form">
+        <h1 class="text-center">Registration Form</h1>
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            <div class="progress-step progress-step-active" data-title="Intro"></div>
+            <div class="progress-step" data-title="Contact"></div>
+            <div class="progress-step" data-title="ID"></div>
+            <div class="progress-step" data-title="Password"></div>
+        </div>
+
+        <div class="form-step form-step-active">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="position">Position</label>
+                <input type="text" name="position" id="position" autocomplete="off">
+            </div>
+            <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" autocomplete="off">
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <a href="#" class="btn btn-next">Next</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="id">National ID</label>
+                <input type="number" name="id" id="id" autocomplete="off">
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <a href="#" class="btn btn-next">Next</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="password">Confirm Password</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <input type="submit" value="Submit" class="btn">
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

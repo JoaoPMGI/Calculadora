@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    animation: backAnimation infinite 10s;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #141313;
+    width: 40%;
+    min-width: 500px;
+    padding: 60px 0;
+    border-radius: 5px;
+}
+
+.timerDisplay {
+    position: relative;
+    width: 110%;
+    left: -5%;
+    background-image: linear-gradient(-135deg, #00eeff, #008cff);
+    padding: 40px 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.5);
+}
+
+.buttons {
+    margin: 60px auto 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+@keyframes backAnimation {
+    0%{
+        background-color: #42fc64;
+    }
+    50% {
+        background-color: #37cc23;
+    }
+    100% {
+        background-color: #42fc64;
+    }
+}
