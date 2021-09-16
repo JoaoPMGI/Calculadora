@@ -12,6 +12,8 @@ body {
     animation: backAnimation infinite 10s;
 }
 
+
+
 .container {
     position:absolute;
     top: 50%;
@@ -55,6 +57,14 @@ input[type="range"]::-webkit-slider-thumb{
     background-color: #1a1a1a;
     border-radius: 50%;
     cursor: pointer;
+}
+
+#title-text {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
 }
 
 #bmi-result {
