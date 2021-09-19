@@ -12,4 +12,6 @@ Project made to present a timer with an easy interface for any user.
 
 ---
 
-## 
+## Registration Form
+
+Simple project to make a form registration.
